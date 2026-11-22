@@ -5,7 +5,7 @@ work. Customers browse vetted technicians, request a repair, and **pay only afte
 marked complete**. Technicians manage listings and a job pipeline; admins approve listings, manage
 roles and watch platform health.
 
-- **Live site:** _add the deployed client URL here_ · **API:** _add the deployed server URL here_
+- **Live site:** https://fixmate-client-zeta.vercel.app · **API:** https://fixmate-server-brown.vercel.app/
 - **Client** — this repo. Next.js 16 (App Router) + React 19, TypeScript, Tailwind v4, shadcn/ui.
 - **API** — [`../FixMate-server`](../FixMate-server). Express + MongoDB, JWT verification,
   Stripe Checkout, ImgBB uploads.
