@@ -211,7 +211,7 @@ function AdminServicesInner() {
           </p>
         </div>
       ) : (
-        <div className="grid grid-cols-[repeat(auto-fill,minmax(1fr,24rem))] gap-5 max-sm:grid-cols-1">
+        <div className="grid grid-cols-[repeat(auto-fill,minmax(17rem,1fr))] gap-5 max-sm:grid-cols-1">
           {filtered.map((service) => (
             <article
               key={service._id}
